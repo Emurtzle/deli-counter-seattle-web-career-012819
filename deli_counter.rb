@@ -16,3 +16,8 @@ def line (array)
     puts line
   end
 end
+
+def take_a_number (line, name)
+  line.push (name)
+  puts "Welcome, #{name}. You are number #{line.size} in line."
+end
