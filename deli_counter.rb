@@ -23,12 +23,10 @@ def take_a_number (line, name)
 end
 
 def now_serving (line)
-  line.each do |name|
     if line.size < 1
       puts "There is nobody waiting to be served!"
     else
       puts "Currently serving #{name}."
       line.shift
     end
-  end
 end
