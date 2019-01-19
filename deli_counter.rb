@@ -12,6 +12,7 @@ def line (array)
       line.concat("#{index}. #{name} ")
       index += 1
     end
+    line = line(0..-1)
     puts line
   end
 end
