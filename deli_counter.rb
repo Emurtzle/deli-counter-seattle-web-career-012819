@@ -9,7 +9,7 @@ def line (array)
     index = 1;
 
     array.each do |name|
-      line.concat "#{index}. #{name} "
+      line.concat("#{index}. #{name} ")
       index += 1
     end
     line
