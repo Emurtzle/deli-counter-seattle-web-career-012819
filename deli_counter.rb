@@ -27,7 +27,7 @@ def now_serving (line)
     puts "There is nobody waiting to be served!"
   else
     line.each do |name|
-      puts "Currently serving #{name}"
+      puts "Currently serving #{name}."
       line.unshift
     end
   end
