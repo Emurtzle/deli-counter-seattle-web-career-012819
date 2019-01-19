@@ -26,7 +26,6 @@ def now_serving (line)
     if line.size < 1
       puts "There is nobody waiting to be served!"
     else
-      puts "Currently serving #{name}."
-      line.shift
+      puts "Currently serving #{line.shift}."
     end
 end
