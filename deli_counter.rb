@@ -21,3 +21,13 @@ def take_a_number (line, name)
   line.push (name)
   puts "Welcome, #{name}. You are number #{line.size} in line."
 end
+
+def now_serving (line)
+  if line.size < 1
+    puts "There is nobody waiting to be served!"
+  else
+    line.each do |name|
+      puts "Currently serving #{name}"
+      line.unshift
+  end
+end
