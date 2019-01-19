@@ -4,7 +4,7 @@ def line (array)
   if array.size == 0
     puts "The line is currently empty."
   else
-    print "The line is currently: "
+    line = "The line is currently: "
 
     index = 1;
 
@@ -12,6 +12,6 @@ def line (array)
       line.concat("#{index}. #{name} ")
       index += 1
     end
-    line
+    puts line
   end
 end
